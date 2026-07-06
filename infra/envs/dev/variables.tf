@@ -21,7 +21,8 @@ variable "availability_zones"   {
 }
 
 variable "app_port"        { 
-  type = number; default = 80 
+  type = number
+  default = 80 
 }
 variable "container_image" { 
   type = string 
